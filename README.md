@@ -4,7 +4,7 @@ OrientDB is a 2nd Generation Distributed Graph Database with the flexibility of 
 ## Run
 
 ```bash
-docker run -d --name orientdb -P leon/orientdb:latest
+docker run -d --name orientdb -p 2424:2480 -p 2480:2480 leon/orientdb:latest
 ```
 
 ## Environment variables
